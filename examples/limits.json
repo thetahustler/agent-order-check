@@ -1,0 +1,10 @@
+{
+  "live_trading": "off",
+  "paper_flag": "DISARMED",
+  "max_loss_per_trade": 50,
+  "max_loss_per_day": 150,
+  "max_open_positions": 2,
+  "never_trade": [],
+  "human_approval": "on",
+  "kill_switch": "operator"
+}

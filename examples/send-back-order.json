@@ -1,0 +1,13 @@
+{
+  "symbol": "SPY",
+  "side": "buy",
+  "qty": 40,
+  "type": "limit",
+  "limit_price": 500,
+  "account_type": "paper",
+  "order_class": "bracket",
+  "take_profit": { "limit_price": 494 },
+  "stop_loss": { "stop_price": 503 },
+  "max_loss": "1000",
+  "live_trading": "on"
+}

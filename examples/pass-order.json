@@ -1,0 +1,12 @@
+{
+  "symbol": "SPY",
+  "asset_class": "equity",
+  "side": "buy",
+  "qty": 10,
+  "type": "limit",
+  "limit_price": 500,
+  "time_in_force": "day",
+  "account_type": "paper",
+  "take_profit": { "limit_price": 506 },
+  "stop_loss": { "stop_price": 496 }
+}

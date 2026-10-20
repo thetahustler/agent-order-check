@@ -1,0 +1,19 @@
+{
+  "name": "agent-order-check",
+  "version": "0.1.0",
+  "description": "Check one proposed order against a limits file the agent cannot write. PASS or SEND-BACK.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "agent-order-check": "./src/cli.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

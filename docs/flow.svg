@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="140" viewBox="0 0 760 140" role="img" aria-labelledby="title desc">
+  <title id="title">Order check flow</title>
+  <desc id="desc">An agent proposes an order. The order check runs. The kill switch can block it. A passing order goes to the paper broker.</desc>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 8 5 L 0 8.8" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="16" y="42" width="150" height="56" rx="8" fill="#f7f4ee" stroke="#1c1c1c" stroke-width="2"/>
+  <text x="91" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#1c1c1c">Agent</text>
+  <path d="M170 70 H198" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#head)"/>
+  <rect x="202" y="42" width="150" height="56" rx="8" fill="#f7f4ee" stroke="#1c1c1c" stroke-width="2"/>
+  <text x="277" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#1c1c1c">Order check</text>
+  <path d="M356 70 H384" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#head)"/>
+  <rect x="388" y="42" width="150" height="56" rx="8" fill="#f7f4ee" stroke="#1c1c1c" stroke-width="2"/>
+  <text x="463" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#1c1c1c">Kill switch</text>
+  <path d="M542 70 H570" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#head)"/>
+  <rect x="574" y="42" width="170" height="56" rx="8" fill="#f7f4ee" stroke="#1c1c1c" stroke-width="2"/>
+  <text x="659" y="75" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#1c1c1c">Paper broker</text>
+</svg>
