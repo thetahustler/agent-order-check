@@ -3,7 +3,7 @@
 Check one proposed order against a limits file the agent cannot write. The result is PASS or SEND-BACK.
 
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-bun%20test-555.svg)](test/check.test.ts)
+[![Tests](https://github.com/thetahustler/agent-order-check/actions/workflows/test.yml/badge.svg)](https://github.com/thetahustler/agent-order-check/actions/workflows/test.yml)
 
 Built by The Agentic Trader (JP3 Labs).
 
